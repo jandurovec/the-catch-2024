@@ -1,0 +1,10 @@
+plugins:
+- jekyll-remote-theme
+- jemoji
+remote_theme: pages-themes/cayman@v0.2.0
+github:
+  is_project_page: false
+markdown: GFM
+
+title: The Catch 2024
+description: TCC-CSIRT

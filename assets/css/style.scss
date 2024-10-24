@@ -1,0 +1,25 @@
+---
+---
+$baseurl: "{{ site.baseurl }}";
+$header-bg-color: #009fd7;
+$section-headings-color: #009fd7;
+
+@import "{{ site.theme }}";
+
+.page-header {
+  background-image: url('#{$baseurl}/assets/images/thecatch2024.png'), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.page-header h1 a {
+  color: $header-heading-color;
+}
+
+.main-content {
+  background-image: url('#{$baseurl}/assets/images/thecatch2024-linka.svg');
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
